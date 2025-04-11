@@ -6,7 +6,7 @@ from openpyxl.styles import PatternFill
 
 st.set_page_config(page_title="Análise entre Planilhas", layout="centered")
 st.title("📊 Análise dos dados extraídos do Recibo Eletrônico de Táxi")
-st.write("Compare automaticamente a planilha extraída com a planilha de conferência encaminhada pela contratada.")
+st.write("Compara automaticamente a planilha extraída do PDF dos recibos com a planilha de conferência encaminhada pela contratada.")
 
 # Upload de arquivos
 uploaded_extraida = st.file_uploader("📄 Envie a planilha EXTRAÍDA", type=["xlsx"])
