@@ -5,9 +5,9 @@ from io import BytesIO
 from openpyxl import load_workbook
 from openpyxl.styles import PatternFill
 
-st.set_page_config(page_title="Comparador de Planilhas MPRJ", layout="centered")
-st.title("📊 Comparador de Planilhas - Recibos MPRJ")
-st.write("Compare automaticamente a planilha extraída com a planilha de referência.")
+st.set_page_config(page_title="Análise entre Planilhas", layout="centered")
+st.title("📊 Análise dos dados extraídos do Recibo Eletrônico de Táxi")
+st.write("Compare automaticamente a planilha extraída com a planilha de conferência.")
 
 # Upload de arquivos
 uploaded_extraida = st.file_uploader("📄 Envie a planilha EXTRAÍDA", type=["xlsx"])
