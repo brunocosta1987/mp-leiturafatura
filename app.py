@@ -84,5 +84,5 @@ if uploaded_extraida and uploaded_referencia:
     wb.save(final_buffer)
     final_buffer.seek(0)
 
-    st.success("✅ Uhulll Comparação concluída!")
+    st.success("✅ Comparação concluída! ✅")
     st.download_button("⬇️ Baixar resultado em Excel", data=final_buffer, file_name="resultado_comparacao.xlsx", mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
